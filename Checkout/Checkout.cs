@@ -15,9 +15,15 @@ namespace ZenithTask.Checkout
             _rules = rules;
         }
 
-        void Scan(char item)
+        public void Scan(char item)
         {
             _items.Add(item);
         }
+
+        public int GetTotalPrice()
+        {
+            return 0;
+        }
+
     }
 }
