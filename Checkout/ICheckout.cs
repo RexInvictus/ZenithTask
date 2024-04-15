@@ -8,7 +8,7 @@ namespace ZenithTask.Checkout
     public interface ICheckout
     {
         void Scan(char item);
-        int GetTotalPrice();
+        decimal GetTotalPrice();
 
     }
 }

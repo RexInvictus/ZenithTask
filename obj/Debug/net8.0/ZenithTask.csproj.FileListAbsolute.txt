@@ -1,0 +1,15 @@
+/home/rojus/Desktop/Projects/ZenithTask/bin/Debug/net8.0/ZenithTask
+/home/rojus/Desktop/Projects/ZenithTask/bin/Debug/net8.0/ZenithTask.deps.json
+/home/rojus/Desktop/Projects/ZenithTask/bin/Debug/net8.0/ZenithTask.runtimeconfig.json
+/home/rojus/Desktop/Projects/ZenithTask/bin/Debug/net8.0/ZenithTask.dll
+/home/rojus/Desktop/Projects/ZenithTask/bin/Debug/net8.0/ZenithTask.pdb
+/home/rojus/Desktop/Projects/ZenithTask/obj/Debug/net8.0/ZenithTask.GeneratedMSBuildEditorConfig.editorconfig
+/home/rojus/Desktop/Projects/ZenithTask/obj/Debug/net8.0/ZenithTask.AssemblyInfoInputs.cache
+/home/rojus/Desktop/Projects/ZenithTask/obj/Debug/net8.0/ZenithTask.AssemblyInfo.cs
+/home/rojus/Desktop/Projects/ZenithTask/obj/Debug/net8.0/ZenithTask.csproj.CoreCompileInputs.cache
+/home/rojus/Desktop/Projects/ZenithTask/obj/Debug/net8.0/ZenithTask.sourcelink.json
+/home/rojus/Desktop/Projects/ZenithTask/obj/Debug/net8.0/ZenithTask.dll
+/home/rojus/Desktop/Projects/ZenithTask/obj/Debug/net8.0/refint/ZenithTask.dll
+/home/rojus/Desktop/Projects/ZenithTask/obj/Debug/net8.0/ZenithTask.pdb
+/home/rojus/Desktop/Projects/ZenithTask/obj/Debug/net8.0/ZenithTask.genruntimeconfig.cache
+/home/rojus/Desktop/Projects/ZenithTask/obj/Debug/net8.0/ref/ZenithTask.dll

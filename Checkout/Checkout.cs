@@ -17,12 +17,42 @@ namespace ZenithTask.Checkout
 
         public void Scan(char item)
         {
-            _items.Add(item);
+            if (char.IsLetter(item))
+            {
+                _items.Add(item);
+            }
+            else
+            {
+                Console.WriteLine("SCAN ERROR: Item key must be alphabetical.");
+            }
         }
 
-        public int GetTotalPrice()
+        public decimal GetTotalPrice()
         {
-            return 0;
+            decimal totalPrice = 0.00m;
+
+            // group items by value
+            var groups = _items.GroupBy(item => item);
+
+            foreach (var group in groups)
+            {
+                // take group-specific rules in order of NumItems
+                var groupRules = _rules.Where(rule => rule.Item == group.Key).OrderByDescending(rule => rule.NumItems);
+
+                
+                var numItems = group.Count();
+                while (numItems > 0)
+                {
+                    var rule = groupRules.First(rule => rule.NumItems <= numItems);
+                    
+                    // floor divide to get batches
+                    int batch = numItems / rule.NumItems;
+
+                    totalPrice += batch * rule.Price;
+                    numItems -= batch * rule.NumItems;
+                }
+            }   
+            return totalPrice;
         }
 
     }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZenithTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32e7472a547ffc100d3357a8a77e9499741cfab2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d26da0cb4749c61a0c6b393f4a3bc9d0ab387345")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZenithTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZenithTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
